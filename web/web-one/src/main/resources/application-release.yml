@@ -1,0 +1,15 @@
+server:
+  port: ${SERVER_PORT}
+
+tenant-id: ${TENANT_ID}
+web:
+  home: ${WEB_HOME}
+  auth:
+    auth-server-url: ${WEB_AUTH_SERVER_URL}
+    realm: ${WEB_AUTH_REALM}
+    client-id: ${WEB_AUTH_CLIENT_ID}
+    client-secret: ${WEB_AUTH_CLIENT_SERCRET}
+    redirect-url: ${web.home}/api/auth/verify
+    token-verify-url: ${web.auth.auth-server-url}/auth/realms/${web.auth.realm}/protocol/openid-connect/token
+    sso-url: ${web.auth.auth-server-url}/auth/realms/${web.auth.realm}/protocol/openid-connect/auth?client_id=${web.auth.client-id}&redirect_uri=${web.auth.redirect-url}&response_type=code&scope=openid
+    logout-url: ${web.auth.auth-server-url}/auth/realms/${web.auth.realm}/protocol/openid-connect/logout?redirect_uri=${web.home}

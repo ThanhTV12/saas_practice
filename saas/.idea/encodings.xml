@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/application/business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/storage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/storage/jpa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/storage/jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/employee" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/employee/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/hibernate" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service/hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../web" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web/base/base.iml" filepath="$PROJECT_DIR$/../web/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/base/base-application.iml" filepath="$PROJECT_DIR$/application/base/base-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/business/business-application.iml" filepath="$PROJECT_DIR$/application/business/business-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/infrastructure.iml" filepath="$PROJECT_DIR$/infrastructure/infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/common/infrastructure-common.iml" filepath="$PROJECT_DIR$/infrastructure/common/infrastructure-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/storage/infrastructure-storage.iml" filepath="$PROJECT_DIR$/infrastructure/storage/infrastructure-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/common/model-common.iml" filepath="$PROJECT_DIR$/model/common/model-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/saas.iml" filepath="$PROJECT_DIR$/saas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/core/service-core.iml" filepath="$PROJECT_DIR$/service/core/service-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/employee/service-employee.iml" filepath="$PROJECT_DIR$/service/employee/service-employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/hibernate/service-hibernate.iml" filepath="$PROJECT_DIR$/service/hibernate/service-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/infrastructure/storage/jpa/storage-jpa.iml" filepath="$PROJECT_DIR$/infrastructure/storage/jpa/storage-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web/web.iml" filepath="$PROJECT_DIR$/../web/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web/web-one/webone.iml" filepath="$PROJECT_DIR$/../web/web-one/webone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web/web-two/webtwo.iml" filepath="$PROJECT_DIR$/../web/web-two/webtwo.iml" />
+    </modules>
+  </component>
+</project>

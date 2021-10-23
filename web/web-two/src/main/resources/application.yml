@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+tenant-id: nvn
+web:
+  home: http://localhost:8083
+  auth:
+    auth-server-url: http://localhost:8080
+    realm: demo
+    client-id: app2
+    client-secret: 62735b13-1003-4088-a08d-4c2d33de7a11
+    redirect-url: ${web.home}/api/auth/verify
+    token-verify-url: ${web.auth.auth-server-url}/auth/realms/${web.auth.realm}/protocol/openid-connect/token
+    sso-url: ${web.auth.auth-server-url}/auth/realms/${web.auth.realm}/protocol/openid-connect/auth?client_id=${web.auth.client-id}&redirect_uri=${web.auth.redirect-url}&response_type=code&scope=openid
+    logout-url: ${web.auth.auth-server-url}/auth/realms/${web.auth.realm}/protocol/openid-connect/logout?redirect_uri=${web.home}

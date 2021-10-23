@@ -1,0 +1,38 @@
+camel:
+  springboot:
+    main-run-controller: false
+    auto-startup: false
+
+spring:
+  jpa:
+    show-sql: true
+
+
+
+saas:
+  system:
+    deploy:
+      instanceName: SAAS Locahost
+      env: dev
+      host: localhost
+      port: 8083
+      di: di01
+    activemq:
+      brokerUrl: tcp://localhost:61616
+      user: admin
+      password: admin
+      trustAll: true
+    dataBase:
+      sql:
+        datasource: saas_system
+        driverClassName: org.mariadb.jdbc.Driver
+        url: jdbc:mysql://42.113.207.179:3306/saas_system?createDatabaseIfNotExist=true&autoReconnect=true&UseUnicode=true&characterEncoding=utf8&useSSL=false
+        username: saas
+        password: Topica@123
+        maximumPoolSize: 100
+        connectionTestQuery: SELECT 1
+
+
+
+
+

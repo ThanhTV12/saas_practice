@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="infrastructure-common" />
+        <module name="testsomething" />
+        <module name="t" />
+        <module name="model-common" />
+        <module name="service-employee" />
+        <module name="webtwo" />
+        <module name="business-application" />
+        <module name="storage-jpa" />
+        <module name="base" />
+        <module name="service-hibernate" />
+        <module name="webone" />
+        <module name="saas-model" />
+        <module name="service-core" />
+        <module name="service-hibernate-fetching" />
+        <module name="base-application" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="application" target="1.8" />
+      <module name="base" target="1.5" />
+      <module name="base-application" target="1.8" />
+      <module name="business-application" target="1.8" />
+      <module name="common-infrastructure" target="1.5" />
+      <module name="infrastructure" target="1.8" />
+      <module name="infrastructure-common" target="1.8" />
+      <module name="infrastructure-storage" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="model-common" target="1.8" />
+      <module name="saas" target="1.8" />
+      <module name="saas-model" target="1.5" />
+      <module name="service" target="1.8" />
+      <module name="service-core" target="1.8" />
+      <module name="service-employee" target="1.8" />
+      <module name="service-hibernate" target="1.8" />
+      <module name="service-hibernate-fetching" target="1.8" />
+      <module name="storage-jpa" target="1.8" />
+      <module name="t" target="1.8" />
+      <module name="testsomething" target="1.8" />
+      <module name="web" target="1.5" />
+      <module name="webone" target="1.5" />
+      <module name="webtwo" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="saas" options="" />
+      <module name="web" options="" />
+    </option>
+  </component>
+</project>
