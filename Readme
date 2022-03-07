@@ -1,0 +1,7 @@
+introduce
+1. SAAS use realm to specify client
+2. Apache camel (EIP)
+3. SS0 single singe on that uses keyclock as a authentication server
+
+1. install mariadb cluster
+2. install keyclock
