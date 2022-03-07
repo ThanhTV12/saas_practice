@@ -26,9 +26,9 @@ saas:
       sql:
         datasource: saas_system
         driverClassName: org.mariadb.jdbc.Driver
-        url: jdbc:mysql://42.113.207.179:3306/saas_system?createDatabaseIfNotExist=true&autoReconnect=true&UseUnicode=true&characterEncoding=utf8&useSSL=false
-        username: saas
-        password: Topica@123
+        url:
+        username:
+        password:
         maximumPoolSize: 100
         connectionTestQuery: SELECT 1
 
